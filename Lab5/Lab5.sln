@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platou1", "Lab5\Platou1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platou2", "Platou2\Platou2.csproj", "{C122CFBC-D3E4-4201-970C-69E88266235A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platou3", "platou3\platou3.csproj", "{471451DB-2371-4C95-A513-9DB7C0E92034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platou5", "Platou5\Platou5.csproj", "{407FEE9E-01EC-4484-AF5D-A7E531EB02B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{C122CFBC-D3E4-4201-970C-69E88266235A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C122CFBC-D3E4-4201-970C-69E88266235A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C122CFBC-D3E4-4201-970C-69E88266235A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471451DB-2371-4C95-A513-9DB7C0E92034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471451DB-2371-4C95-A513-9DB7C0E92034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471451DB-2371-4C95-A513-9DB7C0E92034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471451DB-2371-4C95-A513-9DB7C0E92034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407FEE9E-01EC-4484-AF5D-A7E531EB02B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407FEE9E-01EC-4484-AF5D-A7E531EB02B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407FEE9E-01EC-4484-AF5D-A7E531EB02B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407FEE9E-01EC-4484-AF5D-A7E531EB02B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
