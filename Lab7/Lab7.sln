@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi", "Lab7\Hanoi.csproj", "{C85DDBA6-0C0B-4867-8CFC-5DCC6B13B46B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{48F50E64-0019-415C-B5C2-AE57A106F376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{1E6966D6-7C1A-45EA-AA50-EE256513AB33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirul", "Sirul\Sirul.csproj", "{431519B9-4CB3-4BEB-87D3-3BCC81D78BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximSiMinim", "MaximSiMinim\MaximSiMinim.csproj", "{D1AE13DC-6F99-4C88-A930-C308C5470294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RidicareLaPutere", "RidicareLaPutere\RidicareLaPutere.csproj", "{0BED32D3-4B93-475F-ABE1-5138954C2E20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karatsuba", "Karatsuba\Karatsuba.csproj", "{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{C85DDBA6-0C0B-4867-8CFC-5DCC6B13B46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85DDBA6-0C0B-4867-8CFC-5DCC6B13B46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85DDBA6-0C0B-4867-8CFC-5DCC6B13B46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F50E64-0019-415C-B5C2-AE57A106F376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F50E64-0019-415C-B5C2-AE57A106F376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F50E64-0019-415C-B5C2-AE57A106F376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F50E64-0019-415C-B5C2-AE57A106F376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E6966D6-7C1A-45EA-AA50-EE256513AB33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6966D6-7C1A-45EA-AA50-EE256513AB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6966D6-7C1A-45EA-AA50-EE256513AB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6966D6-7C1A-45EA-AA50-EE256513AB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431519B9-4CB3-4BEB-87D3-3BCC81D78BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431519B9-4CB3-4BEB-87D3-3BCC81D78BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431519B9-4CB3-4BEB-87D3-3BCC81D78BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431519B9-4CB3-4BEB-87D3-3BCC81D78BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AE13DC-6F99-4C88-A930-C308C5470294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AE13DC-6F99-4C88-A930-C308C5470294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AE13DC-6F99-4C88-A930-C308C5470294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AE13DC-6F99-4C88-A930-C308C5470294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BED32D3-4B93-475F-ABE1-5138954C2E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BED32D3-4B93-475F-ABE1-5138954C2E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BED32D3-4B93-475F-ABE1-5138954C2E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BED32D3-4B93-475F-ABE1-5138954C2E20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
