@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coada", "Lab9\Coada.csproj", "{647859C3-CA66-48F0-957A-906E182A5BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista", "Lista\Lista.csproj", "{A577AA97-F60A-470E-90DA-EC8D4C502669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647859C3-CA66-48F0-957A-906E182A5BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647859C3-CA66-48F0-957A-906E182A5BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647859C3-CA66-48F0-957A-906E182A5BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647859C3-CA66-48F0-957A-906E182A5BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29B9CBDE-9495-4987-B169-97B18FD0EB54}
+	EndGlobalSection
+EndGlobal

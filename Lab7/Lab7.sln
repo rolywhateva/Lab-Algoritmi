@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RidicareLaPutere", "Ridicar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Karatsuba", "Karatsuba\Karatsuba.csproj", "{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InmultireaMatricelor", "InmultireaMatricelor\InmultireaMatricelor.csproj", "{C5287B41-3108-4A62-8C28-F4C94E71591C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C757E7D2-931A-4172-83FC-BFBD3DD4AF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5287B41-3108-4A62-8C28-F4C94E71591C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5287B41-3108-4A62-8C28-F4C94E71591C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5287B41-3108-4A62-8C28-F4C94E71591C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5287B41-3108-4A62-8C28-F4C94E71591C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
