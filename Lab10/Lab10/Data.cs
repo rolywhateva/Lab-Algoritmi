@@ -23,7 +23,7 @@ namespace Lab10
         }
         public string View()
         {
-            return x + " " + y + " " + v;
+            return x + " " + y + " " + v+" ";
         }
     }
 }
