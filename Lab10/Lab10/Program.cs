@@ -51,6 +51,12 @@ namespace Lab10
             }
             
             Console.WriteLine(Engine.n[Engine.nex, Engine.ney]);
+            for (int i = 0; i <Engine.x; i++)
+            {
+                for (int j = 0; j <Engine.y; j++)
+                    Console.Write(Engine.n[i, j] + "\t");
+                Console.WriteLine();
+            }
             Console.ReadKey();
         }
     }
