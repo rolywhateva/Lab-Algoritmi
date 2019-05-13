@@ -11,12 +11,19 @@ namespace Lab10
         {
             Engine.Load(@"..\..\labirint.in");
             Queue A = new Queue();
+            
+   
             A.Add(Engine.nsx, Engine.nsy, 1);
+            
             Engine.n[Engine.nsx, Engine.nsy] = 1;
-            while(A.n>0)
+            
+            while(A.n!=0)
             {
                 Data tod = A.Remove();
-                int x = tod.x;
+            
+                
+                   int   x = tod.x;
+              
                 int y = tod.y;
                 int v = tod.v;
                 if(x-1>=0&&Engine.n[x-1,y]==0)
@@ -42,7 +49,9 @@ namespace Lab10
 
 
             }
+            
             Console.WriteLine(Engine.n[Engine.nex, Engine.ney]);
+            Console.ReadKey();
         }
     }
 }

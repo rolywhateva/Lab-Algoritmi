@@ -18,16 +18,16 @@ namespace Lab10
         public void Add(int x,int y, int z)
         {
             Data data = new Data(x, y, z);
-            Data[] t = new Data[++n];
-            for (int i = 1; i < n - 1; i++)
-                t[i] = v[i - 1];
+            n++;
+            Data[] t = new Data[n];
+            for (int i = 0; i < n - 1; i++)
+                t[i+1] = v[i];
             t[0] = data;
             v = t;
         }
         public Data Remove()
         {
-            if (n > 0)
-            {
+          
                 Data r = v[n - 1];
                 n--;
                 Data[] t = new Data[n];
@@ -36,14 +36,14 @@ namespace Lab10
                 v = t;
                 
                 return r;
-            }
-            return new Data(-1, -1, -1);
+            
+            
         }
         public  string Afis()
         {
-            string buffer = " ";
+            string buffer = "";
             for (int i = 0; i < n; i++)
-                buffer += v[i].View() + "\n";
+                buffer += v[i].View() + " ";
             return buffer;
         }
         
