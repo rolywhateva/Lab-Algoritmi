@@ -15,6 +15,12 @@ namespace Lab10
             this.y = y;
             this.v = v;
         }
+        public Data(Data data)
+        {
+            x = data.x;
+            y = data.y;
+            v = data.v;
+        }
         public string View()
         {
             return x + " " + y + " " + v;

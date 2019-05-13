@@ -34,6 +34,7 @@ namespace Lab10
                 for (int i = 0; i < n; i++)
                     t[i] = v[i];
                 v = t;
+                
                 return r;
             }
             return new Data(-1, -1, -1);
