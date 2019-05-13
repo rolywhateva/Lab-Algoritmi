@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coada", "Lab9\Coada.csproj"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista", "Lista\Lista.csproj", "{A577AA97-F60A-470E-90DA-EC8D4C502669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedList", "SortedList\SortedList.csproj", "{2526F669-9FA1-4D13-A141-2702715BA608}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A577AA97-F60A-470E-90DA-EC8D4C502669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2526F669-9FA1-4D13-A141-2702715BA608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2526F669-9FA1-4D13-A141-2702715BA608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2526F669-9FA1-4D13-A141-2702715BA608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2526F669-9FA1-4D13-A141-2702715BA608}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
