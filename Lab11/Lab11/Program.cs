@@ -16,11 +16,23 @@ namespace Lab11
         }
         static void switchnodes(int[,] m, int nod1,int nod2)
         {
-            /*
+            
             int n = m.GetLength(0);
-            for(int i=0;i<n;i++)
-                switchval(ref m[])
-                */
+            for (int i = 0; i < n; i++)
+            {
+                switchval(ref m[nod1, i], ref m[nod2, i]);
+                switchval(ref m[i, nod1], ref m[i, nod2]);
+            }
+                
+        }
+        static int grad(int[,] m, int nod1)
+        {
+            int n = m.GetLength(0);
+            int grad = 0;
+            for (int i = 0; i < n; i++)
+                grad = grad + m[nod1, i];
+            return grad;
+
         }
         static void Main(string[] args)
         {
@@ -50,6 +62,12 @@ namespace Lab11
                     Console.Write("{0,3}",m[i,j]);
                 Console.WriteLine();
             }
+            int nodmax = 0;
+            for (int i = 1; i < n; i++)
+                if (grad(m, i) > grad(m, nodmax))
+                    nodmax = i;
+            switchnodes(m, 0, nodmax);
+
             int[] c  = new int[n];
             for (int i = 0; i < c.Length; i++)
                 c[i] = -1;
